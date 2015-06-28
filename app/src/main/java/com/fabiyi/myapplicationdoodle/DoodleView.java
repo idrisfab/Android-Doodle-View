@@ -39,7 +39,7 @@ public class DoodleView extends View
         super.onDraw(canvas);
         //canvas.drawLine(0,0, getWidth(), getHeight(), paintDoodle);
         canvas.drawPath(path, paintDoodle);
-        Toast.makeText(getContext(), "Drawning is happening", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getContext(), "Drawning is happening", Toast.LENGTH_SHORT).show();
     }
 
     public DoodleView(Context context)
